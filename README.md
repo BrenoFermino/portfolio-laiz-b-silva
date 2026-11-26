@@ -12,7 +12,7 @@ npm run build && npm start   # produção: tudo em http://localhost:3001
 ## Publicar (Render)
 1. Suba o código para o GitHub.
 2. Em [render.com](https://render.com): **New → Blueprint** (usa o `render.yaml`) ou **Web Service** apontando para o repositório.
-3. Build: `npm install && npm run build` · Start: `npm start`
+3. Build: `npm install --include=dev && npm run build` · Start: `npm start`
 4. Depois do deploy, o site fica em `https://seu-servico.onrender.com`.
 
 
