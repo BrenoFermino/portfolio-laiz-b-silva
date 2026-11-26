@@ -1,0 +1,16 @@
+node_modules/
+dist/
+client/dist/
+server/dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.tmp*/
+.vite/
+coverage/
+
+*.pptx
+*.HEIC
+*.heic
